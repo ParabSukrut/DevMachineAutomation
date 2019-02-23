@@ -261,7 +261,7 @@ function PostToMSTeam
 
     Process 
     {                
-        $MSTeamUri   = 'https://outlook.office.com/webhook/7cb76930-ad2c-43b1-8d5e-35119c37719d@c8f08d7a-5d31-4558-b0ca-b619c9a3d60a/IncomingWebhook/66535ec6318049bcbd37aa48d8a75772/80990c87-0e6c-40c0-8139-5dd0cf1e1aa9'   
+        $MSTeamUri   = 'https://outlook.office.com/webhook//IncomingWebhook/f1e1aa9'   
         $messageBody = ConvertTo-JSON @{text = $Message}   
 
         # Call the API
